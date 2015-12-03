@@ -1,7 +1,7 @@
 # AfterlifeWebServices
 Web API for The Afterlife MUD using Slim PHP micro framework
 
-[![Circle CI](https://circleci.com/gh/nickbreslin/booshtracker.svg?style=shield&circle-token=726bbf905911363923f8a55a4e01748b05070c8d)](https://circleci.com/gh/nickbreslin/AfterlifeWebServices)
+[![Circle CI](https://circleci.com/gh/nickbreslin/AfterlifeWebServices.svg?style=shield&circle-token=726bbf905911363923f8a55a4e01748b05070c8d)](https://circleci.com/gh/nickbreslin/AfterlifeWebServices)
 
 ## Introduction
 
