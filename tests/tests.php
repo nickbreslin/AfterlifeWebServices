@@ -9,6 +9,12 @@ header("Access-Control-Allow-Origin: *");
 
 require 'vendor/autoload.php';
 
+class Bob 
+{
+    public function Frank() {
+        echo "here";
+    }
+}
 class StackTest extends PHPUnit_Framework_TestCase
 {
     public function testPushAndPop()
@@ -25,6 +31,22 @@ class StackTest extends PHPUnit_Framework_TestCase
     }
 
     public function testSwitch()
+    {
+        $expr = 0;
+
+        switch ($expr) {
+            default:
+                 //echo "Hello World";
+                 break;
+            default:
+                 //echo "Goodbye Moon!";
+                 break;
+        }
+
+        $this->assertEquals(0, 0);
+    }
+
+    public function bob()
     {
         $expr = 0;
 

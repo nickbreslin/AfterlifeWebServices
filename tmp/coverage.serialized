@@ -1,0 +1,115 @@
+<?php
+$coverage = new PHP_CodeCoverage;
+$coverage->setData(array (
+  '/Users/nickbreslin/projects/afterlife/AfterlifeWebServices/tests/tests.php' => 
+  array (
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    22 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    23 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    25 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    26 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    27 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    29 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    30 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    31 => 
+    array (
+      0 => 'StackTest::testPushAndPop',
+    ),
+    35 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    38 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    40 => NULL,
+    41 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    43 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    44 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    46 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    47 => 
+    array (
+      0 => 'StackTest::testSwitch',
+    ),
+    51 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    56 => NULL,
+    57 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'StackTest::testPushAndPop' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StackTest::testSwitch' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/Users/nickbreslin/projects/afterlife/AfterlifeWebServices/tests/tests.php' => true,
+));
+
+return $coverage;

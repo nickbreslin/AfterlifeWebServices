@@ -6,3 +6,6 @@ machine:
 test:
   override:
     - ./vendor/phpunit/phpunit/phpunit tests/*
+    - git add tmp/
+    - git commit -am 'Test Results'
+    - git push origin master
