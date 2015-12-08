@@ -1,4 +1,0 @@
-TAP version 13
-ok 1 - StackTest::testPushAndPop
-ok 2 - StackTest::testSwitch
-1..2

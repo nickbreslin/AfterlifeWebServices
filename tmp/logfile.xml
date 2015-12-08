@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="StackTest" file="/Users/nickbreslin/projects/afterlife/AfterlifeWebServices/tests/tests.php" tests="2" assertions="6" failures="0" errors="0" time="0.008964">
-    <testcase name="testPushAndPop" class="StackTest" file="/Users/nickbreslin/projects/afterlife/AfterlifeWebServices/tests/tests.php" line="20" assertions="5" time="0.005882"/>
-    <testcase name="testSwitch" class="StackTest" file="/Users/nickbreslin/projects/afterlife/AfterlifeWebServices/tests/tests.php" line="33" assertions="1" time="0.003082"/>
-  </testsuite>
-</testsuites>

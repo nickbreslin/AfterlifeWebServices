@@ -33,7 +33,7 @@ class StackTest extends PHPUnit_Framework_TestCase
     public function testSwitch()
     {
         $expr = 0;
-
+        /*
         switch ($expr) {
             default:
                  //echo "Hello World";
@@ -44,6 +44,7 @@ class StackTest extends PHPUnit_Framework_TestCase
         }
 
         $this->assertEquals(0, 0);
+        */
     }
 
     public function bob()
